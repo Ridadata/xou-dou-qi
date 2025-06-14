@@ -17,19 +17,19 @@ Il a été développé dans le cadre d’un mini-projet en Java, avec gestion de
 
 ## 🚀 Fonctionnalités principales
 
-- 🔐 **Connexion / Inscription** des joueurs
-- ♟️ **Jeu tour par tour en console**, avec commandes textuelles (`move R forward`, `show`, etc.)
-- 🎯 **Plateau de jeu coloré** (pièces rouges/bleues, eau, pièges, tanières)
-- 🧠 **Règles officielles** du jeu respectées (puissance des pièces, zones spéciales)
-- 📊 **Base de données SQLite intégrée** :
+-  **Connexion / Inscription** des joueurs
+-  **Jeu tour par tour en console**, avec commandes textuelles (`move R forward`, `show`, etc.)
+-  **Plateau de jeu coloré** (pièces rouges/bleues, eau, pièges, tanières)
+-  **Règles officielles** du jeu respectées (puissance des pièces, zones spéciales)
+-  **Base de données SQLite intégrée** :
   - Enregistrement des comptes joueurs
   - Historique des matchs (joueurs, gagnant, date)
   - Statistiques : victoires, défaites, égalités
-- 📥 Interface 100% en console, sans framework graphique
+-  Interface 100% en console, sans framework graphique
 
 ---
 
-## 🧱 Technologies utilisées
+##  Technologies utilisées
 
 - **Java 17**
 - **JDBC (Java Database Connectivity)**
@@ -40,24 +40,24 @@ Il a été développé dans le cadre d’un mini-projet en Java, avec gestion de
 ---
 
 ## 📂 Structure du projet (simplifiée)
-XouDouQi/
-├── src/
-│ └── main/java/game/
-│ ├── Main.java
-│ ├── Game.java
-│ ├── Board.java
-│ ├── Piece.java + sous-classes (Rat, Lion, etc.)
-│ ├── Player.java
-│ ├── Login.java
-│ └── DatabaseManager.java
-├── pom.xml
+
+📦 XouDouQi
+├── 📁 src
+│   └── 📁 main
+│       └── 📁 java
+│           └── 📁 game
+│               ├── Main.java
+│               ├── Game.java
+│               ├── Player.java
+│               └── Piece.java + sous-classes (Rat, Lion, etc.)...
 ├── .gitignore
+├── pom.xml
 └── README.md
 
 
 ---
 
-## 🧪 Instructions pour exécuter le jeu
+##  Instructions pour exécuter le jeu
 
 ### 1. Prérequis
 - Java JDK 17 ou supérieur
