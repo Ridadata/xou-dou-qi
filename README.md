@@ -39,9 +39,9 @@ Il a été développé dans le cadre d’un mini-projet en Java, avec gestion de
 
 ---
 
-## 📂 Structure du projet (simplifiée)
+## 📂 Structure du projet
 
-
+```
 XouDouQi/
 ├── src/
 │   └── main/
@@ -65,11 +65,8 @@ XouDouQi/
 ├── pom.xml
 ├── .gitignore
 └── README.md
+```
 
-
-
-
----
 
 ##  Instructions pour exécuter le jeu
 
