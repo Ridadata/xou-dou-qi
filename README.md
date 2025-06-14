@@ -41,18 +41,32 @@ Il a été développé dans le cadre d’un mini-projet en Java, avec gestion de
 
 ## 📂 Structure du projet (simplifiée)
 
-📦 XouDouQi
-├── 📁 src
-│   └── 📁 main
-│       └── 📁 java
-│           └── 📁 game
+
+XouDouQi/
+├── src/
+│   └── main/
+│       └── java/
+│           └── game/
 │               ├── Main.java
 │               ├── Game.java
+│               ├── Board.java
+│               ├── Piece.java
+│               ├── Rat.java
+│               ├── Lion.java
+│               ├── Tiger.java
+│               ├── Panther.java
+│               ├── Dog.java
+│               ├── Cat.java
+│               ├── Wolf.java
+│               ├── Elephant.java
 │               ├── Player.java
-│               └── Piece.java + sous-classes (Rat, Lion, etc.)...
-├── .gitignore
+│               ├── Login.java
+│               └── DatabaseManager.java
 ├── pom.xml
+├── .gitignore
 └── README.md
+
+
 
 
 ---
